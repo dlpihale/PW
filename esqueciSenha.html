@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="esquecistyles.css">
+    <title>Esqueci a palvra-passe</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Esqueci a palvra-passe</h2>
+        <p>Insira seu correio eletronico registrado abaixo para redefinir sua senha.</p>
+        <form action="processar_esqueci_senha.php" method="POST">
+            <label for="email">correio eletronico:</label>
+            <input type="email" id="email" name="email" required placeholder="correio eletronico">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
